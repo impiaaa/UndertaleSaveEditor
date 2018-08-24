@@ -133,7 +133,7 @@ public slots:
 	void updateData();
 private:
 	int id;
-	int values[10] = {0, 3, 13, 14, 25, 45, 47, 49, 51, 52};
+	int values[10] = {3, 13, 14, 25, 45, 47, 49, 51, 52};
 	QMap<int, int> indexes{{3, 0}, {13, 1}, {14, 2}, {25, 3}, {45, 4}, {47, 5}, {49, 6}, {51, 7}, {52, 8}};
 	MainWindow *mw;
 };
@@ -150,7 +150,7 @@ public slots:
 	void updateData();
 private:
 	int id;
-	int values[11] = {0, 4, 12, 15, 24, 44, 46, 48, 50, 53, 64};
+	int values[11] = {4, 12, 15, 24, 44, 46, 48, 50, 53, 64};
 	QMap<int, int> indexes{{4, 0}, {12, 1}, {15, 2}, {24, 3}, {44, 4}, {46, 5}, {48, 6}, {50, 7}, {53, 8}, {64, 9}};
 	MainWindow *mw;
 };
